@@ -1,0 +1,47 @@
+body {
+  overflow: hidden;
+}
+
+/* .node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+} */
+
+.node text {
+  font: 12px sans-serif;
+  word-spacing: 10px;
+  /* text-align: center;  */
+}
+
+.link {
+  fill: none;
+  stroke: rgb(93, 179, 250);
+  stroke-width: 5px;
+}
+
+.link:hover {
+  stroke: rgb(10, 98, 170);
+}
+.recta {
+  /* fill: none; */
+  /* height: 500; */
+  stroke-width: 3px;
+  cursor: pointer;
+  transition: height 0.7s ease-in-out;
+}
+.recta:hover {
+  height: 80px;
+  stroke: white;
+  stroke-width: -15px;
+}
+
+.text {
+  fill: white;
+  stroke: white;
+  text-align: center;
+}
+
+.button {
+  height: 50px;
+}
